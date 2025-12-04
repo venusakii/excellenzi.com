@@ -1,0 +1,29 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      .background { fill: black; }
+      .foreground { fill: white; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .background { fill: white; }
+      .foreground { fill: black; }
+    }
+  </style>
+  <g clip-path="url(#clip0_7960_43945)">
+    <!-- New Excellenzi eco-kitchen themed favicon with leaf icon -->
+    <rect width="180" height="180" rx="37" fill="#9BBBA7"/>
+    <g style="transform: scale(90%); transform-origin: center">
+      <!-- Leaf shape representing eco-friendly kitchen -->
+      <path d="M90 30C60 30 35 60 35 100C35 130 50 155 90 165C130 155 145 130 145 100C145 60 120 30 90 30Z" fill="#F7F5F0" stroke="#4A5D52" stroke-width="4"/>
+      <!-- Leaf veins -->
+      <path d="M90 50V140" stroke="#4A5D52" stroke-width="4" stroke-linecap="round"/>
+      <path d="M65 75C75 95 82 105 90 105C98 105 105 95 115 75" stroke="#4A5D52" stroke-width="3" stroke-linecap="round" fill="none"/>
+      <path d="M60 100C72 115 80 122 90 122C100 122 108 115 120 100" stroke="#4A5D52" stroke-width="3" stroke-linecap="round" fill="none"/>
+    </g>
+  </g>
+  <defs>
+    <clipPath id="clip0_7960_43945">
+      <rect width="180" height="180" fill="white" />
+    </clipPath>
+  </defs>
+</svg>
