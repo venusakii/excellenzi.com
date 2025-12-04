@@ -1,7 +1,6 @@
 import type React from "react"
 import type { Metadata, Viewport } from "next"
-import { Inter } from "next/font/google"
-import localFont from "next/font/local"
+import { Inter, Playfair_Display } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
@@ -11,16 +10,10 @@ const inter = Inter({
   display: "swap",
 })
 
-const clashDisplay = localFont({
-  src: [
-    {
-      path: "../public/fonts/ClashDisplay-Variable.woff2",
-      style: "normal",
-    },
-  ],
+const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
   variable: "--font-clash",
   display: "swap",
-  fallback: ["Georgia", "serif"],
 })
 
 export const metadata: Metadata = {
@@ -77,7 +70,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${clashDisplay.variable}`}>
+    <html lang="en" className={`${inter.variable} ${playfairDisplay.variable}`}>
       <body className="font-sans antialiased overflow-x-hidden">
         {children}
         <Analytics />

@@ -85,7 +85,7 @@
 
 @theme inline {
   --font-sans: "Inter", system-ui, sans-serif;
-  --font-serif: var(--font-clash), "Georgia", serif;
+  --font-serif: "Playfair Display", "Georgia", serif;
   --font-mono: "Geist Mono", monospace;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -147,9 +147,9 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Custom font-serif class for Clash Display */
+/* Custom font-serif class for Playfair Display */
 .font-serif {
-  font-family: var(--font-clash), "Georgia", serif;
+  font-family: "Playfair Display", "Georgia", serif;
 }
 
 /* Custom animations */
